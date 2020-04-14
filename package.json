@@ -34,7 +34,7 @@
     "clean:quickstart": "rimraf quickstart/public/index.js",
     "start": "npm run clean && npm run build && node server",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d quickstart/public"
+    "deploy": "gh-pages -d quickstart/public"
   },
   "keywords": [
     "twilio",

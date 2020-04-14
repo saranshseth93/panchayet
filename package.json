@@ -34,7 +34,7 @@
     "clean:quickstart": "rimraf quickstart/public/index.js",
     "start": "npm run clean && npm run build && node server",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d quickstart/public"
   },
   "keywords": [
     "twilio",
@@ -50,7 +50,7 @@
   "bugs": {
     "url": "https://github.com/twilio/video-quickstart-js/issues"
   },
-  "homepage": "https://saranshseth93.github.io/monsters-rolodex",
+  "homepage": "https://saranshseth93.github.io/panchayet",
   "dependencies": {
     "dotenv": "^4.0.0",
     "express": "^4.15.2",

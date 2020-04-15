@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "browserify quickstart/src/index.js > quickstart/public/index.js",
-    "clean": "rimraf quickstart/public/index.js",
-    "start": "npm run clean && npm run build && node server"
+    "start": "npm run build && node server"
   },
   "repository": {
     "type": "git",

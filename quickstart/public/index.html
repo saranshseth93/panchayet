@@ -1,19 +1,314 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Twilio Video Quickstart</title>
+    <title>Panchayet</title>
     <link rel="stylesheet" href="index.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="css/startup-materialize.min.css">
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body>
+
+<!-- Navbar -->
+<nav class="navbar dark absolute">
+  <div class="nav-wrapper">
+    <a href="horizontal-half.html" class="brand-logo"><span class="material-icons">
+      video_call
+      </span></a>
+  </div>
+</nav>
+
+<div class="header full-height horizontal-half-transition">
+  <div class="background white">
+  </div>
+  <div class="phone-preview-sizer" style="max-width: 750px !important;">
+    <div class="image-container active" style="background-size: contain;background-image: url(assets/main-2.png);background-repeat: no-repeat;"></div>
+    <div class="image-container" style="background-size: contain;background-image: url(assets/main-1.png);background-repeat: no-repeat;"></div>
+    <div class="image-container" style="background-size: contain;background-image: url(assets/main.png);background-repeat: no-repeat;"></div>
+  </div>
+  <div class="horizontal-half-wrapper right-side active">
+    <div class="header-background" style="background-color: #E1E5F2;"></div>
+    <div class="header-wrapper row valign-wrapper">
+      <div class="col s12 m8 offset-m2 valign">
+        <h2 style="color: #1d1e2c;">From your cozy chair...</h1>
+        <span class="tagline" style="color: #1d1e2c;"></span>
+        <button class="read-more" style="color: #1d1e2c;"><span class="material-icons" style="font-size: 48px;">keyboard_arrow_down</span></button>
+      </div>
+    </div>
+  </div>
+  <div class="horizontal-half-wrapper">
+    <div class="header-background" style="background-color: #E1E5F2;"></div>
+    <div class="header-wrapper row valign-wrapper">
+      <div class="col s12 m8 offset-m2 valign">
+        <h2 style="color: #1d1e2c;">On your creative desk...</h1>
+        <span class="tagline" style="color: #1d1e2c;"></span>
+        <button class="read-more" style="color: #1d1e2c;"><span class="material-icons" style="font-size: 48px;">keyboard_arrow_down</span></button>
+      </div>
+    </div>
+  </div>
+  <div class="horizontal-half-wrapper right-side">
+    <div class="header-background" style="background-color: #E1E5F2;"></div>
+    <div class="header-wrapper row valign-wrapper">
+      <div class="col s12 m8 offset-m2 valign">
+        <h2 style="color: #1d1e2c;">On your workspace...</h1>
+        <span class="tagline" style="color: #1d1e2c;">We make every conversation count.</span>
+        <button class="read-more" style="color: #1d1e2c;"><span class="material-icons" style="font-size: 48px;">keyboard_arrow_down</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section valign-wrapper">
+  <div class="row valign">
+    <div class="col s12 m10 offset-m1">
+      <div class="row">
+        <div class="col s12"><h2 class="section-title">Features</h2></div>
+        <div class="col s12 m6 l4">
+          <h4><i class="icon-light-bulb"></i></h4>
+          <p class="caption">This is a cool feature about your product! It really separates you from the crowd.</p>
+        </div>
+        <div class="col s12 m6 l4">
+          <h4><i class="icon-bolt"></i></h4>
+          <p class="caption">This is a cool feature about your product! It really separates you from the crowd.</p>
+        </div>
+        <div class="col s12 m6 l4">
+          <h4><i class="icon-rocket"></i></h4>
+          <p class="caption">This is a cool feature about your product! It really separates you from the crowd.</p>
+        </div>
+        <div class="col s12 m6 l4">
+          <h4><i class="icon-settings"></i></h4>
+          <p class="caption">This is a cool feature about your product! It really separates you from the crowd.</p>
+        </div>
+        <div class="col s12 m6 l4">
+          <h4><i class="icon-umbrella"></i></h4>
+          <p class="caption">This is a cool feature about your product! It really separates you from the crowd.</p>
+        </div>
+        <div class="col s12 m6 l4">
+          <h4><i class="icon-compass"></i></h4>
+          <p class="caption">This is a cool feature about your product! It really separates you from the crowd.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Pricing Tables -->
+<div class="section valign-wrapper">
+  <div class="row valign">
+    <div class="col s12 m10 offset-m1">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="pricing-table">
+            <div class="pricing-header">
+              <i class="icon-paper-plane"></i>
+              <h4>Basic</h4>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="dollars">9</span>
+                <span class="cents">99</span>
+              </div>
+            </div>
+            <ul class="pricing-features">
+              <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+              <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+              <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+              <li class="pricing-feature disabled"><i class="icon-close"></i>Pro and above.</li>
+              <li class="pricing-feature disabled"><i class="icon-close"></i>Enterprise only.</li>
+              <li class="pricing-feature disabled"><i class="icon-close"></i>Enterprise only.</li>
+              <li class="pricing-feature disabled"><i class="icon-close"></i>Enterprise only.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="pricing-table featured">
+            <div class="pricing-header">
+              <i class="icon-plane"></i>
+              <h4>Pro</h4>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="dollars">59</span>
+                <span class="cents">99</span>
+              </div>
+            </div>
+            <ul class="pricing-features">
+              <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+              <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+              <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+              <li class="pricing-feature"><i class="icon-accept"></i>Pro and above.</li>
+              <li class="pricing-feature disabled"><i class="icon-close"></i>Enterprise only.</li>
+              <li class="pricing-feature disabled"><i class="icon-close"></i>Enterprise only.</li>
+              <li class="pricing-feature disabled"><i class="icon-close"></i>Enterprise only.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col s12 m4">
+          <div class="pricing-table">
+            <div class="pricing-header">
+              <i class="icon-rocket"></i>
+              <h4>Enterprise</h4>
+              <div class="price">
+                <span class="currency">$</span>
+                <span class="dollars">299</span>
+                <span class="cents">99</span>
+              </div>
+            </div>
+            <ul class="pricing-features">
+              <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+              <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+              <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+              <li class="pricing-feature"><i class="icon-accept"></i>10 product uses.</li>
+              <li class="pricing-feature"><i class="icon-accept"></i>Enterprise only.</li>
+              <li class="pricing-feature"><i class="icon-accept"></i>Enterprise only.</li>
+              <li class="pricing-feature"><i class="icon-accept"></i>Enterprise only.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section light full-height">
+  <div class="row">
+    <div class="col s12 m10 offset-m1 center">
+      <h1>blog</h1>
+      <div class="row masonry-grid">
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <a href="blog.html"><img src="http://placehold.it/600x400"></a>
+              <span class="card-title">Something Interesting</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <a href="blog.html"><img src="http://placehold.it/600x400"></a>
+              <span class="card-title">Another Blog Post</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <a href="blog.html"><img src="http://placehold.it/600x400"></a>
+              <span class="card-title">Click Bait Article</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <a href="blog.html"><img src="http://placehold.it/600x400"></a>
+              <span class="card-title">Don't Read This!</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <a href="blog.html"><img src="http://placehold.it/600x400"></a>
+              <span class="card-title">Why Are You Still Reading?</span>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 l4">
+          <div class="card">
+            <div class="card-image">
+              <a href="blog.html"><img src="http://placehold.it/600x400"></a>
+              <span class="card-title">Good Bye</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Us -->
+<div class="section light valign-wrapper">
+  <div class="container">
+    <form>
+      <div class="row">
+        <div class="col s12"><h2 class="section-title">Contact Us</h2></div>
+        <div class="input-field col s6">
+          <input id="first_name" type="text">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text">
+          <label for="last_name">Last Name</label>
+        </div>
+        <div class="input-field col s12">
+          <textarea id="message" class="materialize-textarea"></textarea>
+          <label for="message">Message</label>
+          <a class="waves-effect waves-light btn-large">Button</a>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col s6 m3">
+        <img class="materialize-logo" src="images/materialize-teal.png" alt="">
+        <p>Made with love by Materialize.</p>
+      </div>
+      <div class="col s6 m3">
+        <h5>About</h5>
+        <ul>
+          <li><a href="#!">Blog</a></li>
+          <li><a href="#!">Pricing</a></li>
+          <li><a href="#!">Docs</a></li>
+        </ul>
+      </div>
+      <div class="col s6 m3">
+        <h5>Connect</h5>
+        <ul>
+          <li><a href="#!">Community</a></li>
+          <li><a href="#!">Subscribe</a></li>
+          <li><a href="#!">Email</a></li>
+        </ul>
+      </div>
+      <div class="col s6 m3">
+        <h5>Contact</h5>
+        <ul>
+          <li><a href="#!">Twitter</a></li>
+          <li><a href="#!">Facebook</a></li>
+          <li><a href="#!">Github</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/materialize.min.js"></script>
+
+<!-- External libraries -->
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/masonry.pkgd.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/ScrollMagic.min.js"></script>
+<script src="js/animation.gsap.min.js"></script>
+
+<!-- Initialization script -->
+<script src="js/startup.js"></script>
+<script src="js/init.js"></script>
+    
+
     <div class="jumbotron">
       <div class="container-fluid">
-        <h1 class="display-3">Welcome to Twilio Video Quickstart</h1>
+        <h1 class="display-3">Panchayet</h1>
         <p class="lead">For more examples click <a href="/examples">here</a></p>
       </div>
     </div>

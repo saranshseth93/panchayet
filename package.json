@@ -63,6 +63,7 @@
     "npm-run-all": "^4.0.2",
     "prismjs": "^1.6.0",
     "rimraf": "^2.6.1",
+    "stackblur-canvas": "^1.4.0",
     "twilio": "^3.42.2",
     "twilio-video": "^2.1.0"
   },
